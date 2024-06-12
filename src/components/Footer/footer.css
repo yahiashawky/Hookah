@@ -1,0 +1,417 @@
+body{
+    font-family: "Cooper Hewitt", Arial, Helvetica, sans-serif;
+}
+.footer{
+    position: relative;
+    background-color: #000;
+    height: 130vh;
+}
+.image-frame {
+    border: 2px solid black; 
+    padding: 5px;
+  }
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.footer-top h3{
+    color: #fff;
+    margin-top: 50px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.footer-top a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #ccc;
+    transition: 0.5s;
+}
+.footer-top a:hover{
+    color: var(--main-color);
+}
+.footer-logo img{
+    position: absolute;
+    top: -95px;
+    left: -20px;
+    width: 300px;
+    height: 350px;
+    object-fit: contain;
+}
+.footer-logo p{
+    color: #fff;
+    line-height: 2;
+}
+.footer-privacy .privacy-icons{
+    position: absolute;
+    top: 290px;
+    display: flex;
+    align-items: center;
+}
+.footer-privacy .hookah{
+    width: 80px;
+    height: 80px;
+    object-fit: conta
+}
+.footer-privacy .melouky{
+    width: 150px;
+    height: 150px;
+    object-fit: conta
+}
+.footer-logo >*{
+    margin-bottom: 20px;
+}
+.footer-shop >*{
+    margin-bottom: 20px;
+}
+.footer-shop{
+    margin-bottom: 20px;
+}
+.footer-about >*{
+    margin-bottom: 20px;
+}
+.footer-about{
+    margin-top: 20px;
+}
+.footer-websit >*{
+    margin-bottom: 20px;
+}
+.footer-websit{
+    margin-bottom: 10px;
+}
+.footer-privacy >*{
+    margin-bottom: 20px;
+}
+.footer-privacy{
+    margin-bottom: 100px;
+}
+.footer-down-des{
+    text-align: center;
+    margin-top: 40px;
+}
+.footer-down-des h1{
+    color: #fff;
+}
+.footer-down-des p{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+}
+.footer-down-des span{
+    color: var(--main-color);
+}
+.footer-down-payment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer-down-payment p{
+    color: #ccc;
+}
+.footer-down-payment .pay-cades{
+    display: flex;
+    gap: 2px;
+}
+.footer-top-after{
+    display: none;
+}
+@media screen and (max-width: 480px){
+    body{
+        overflow-x: hidden;
+    }
+    .footer{
+        height: max-content;
+    }
+    .footer-top{
+        display: none;
+    }
+    .footer-top-after{
+        display: block;
+        padding: 10px;
+    }
+    .footer-top-after h3{
+        color: #fff;
+    }
+    .footer-top-after ul li a{
+        color: #ccc;
+        text-decoration: none;
+    }
+    .footer-top-after ul li a:hover{
+        color: var(--main-color);
+    }
+    .footer-top-after ul li{
+        margin-bottom: 15px;
+    }
+    .footer-logo-after img{
+        position: absolute;
+        top: -10px;
+        left: 120px;
+        width: 300px;
+        height: 350px;
+        object-fit: contain;
+    }
+    .footer-logo-after p{
+        color: #fff;
+        line-height: 2;
+    }
+    .footer-logo-after >*{
+        margin-bottom: 20px;
+    }
+    .footer-logo-after a{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: #ccc;
+    }
+    .footer-ul{
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        unicode-bidi: isolate;
+    }
+    .footer-shop-head-after{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .pluss{
+        color: #fff;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .footer-privacy-after .hookah{
+        width: 80px;
+        height: 80px;
+        object-fit: conta
+    }
+    .footer-privacy-after .melouky{
+        width: 150px;
+        height: 150px;
+        object-fit: conta
+    }
+     .privacy-icons-after{
+        position: absolute;
+        right: 10px;
+        bottom: 430px;
+        display: flex;
+        align-items: center;
+    }
+    .footer-privacy-after >*{
+        margin-bottom: 20px;
+    }
+    .footer-privacy-after-links{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-privacy-after-links a{
+        text-decoration: none;
+        color: #ccc;
+    }
+    .footer-privacy-after-links a:hover{
+        color: var(--main-color);
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    .footer{
+        height: 265vh;
+    }
+    .footer-top{
+        display: none;
+    }
+    .footer-top-after{
+        display: block;
+        padding: 10px;
+    }
+    .footer-top-after h3{
+        color: #fff;
+    }
+    .footer-top-after ul li a{
+        color: #ccc;
+        text-decoration: none;
+    }
+    .footer-top-after ul li a:hover{
+        color: var(--main-color);
+    }
+    .footer-top-after ul li{
+        margin-bottom: 15px;
+    }
+    .footer-logo-after img{
+        position: absolute;
+        top: -95px;
+        left: 180px;
+        width: 300px;
+        height: 350px;
+        object-fit: contain;
+    }
+    .footer-logo-after p{
+        color: #fff;
+        line-height: 2;
+    }
+    .footer-logo-after >*{
+        margin-bottom: 20px;
+    }
+    .footer-logo-after a{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: #ccc;
+    }
+    .footer-ul{
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        unicode-bidi: isolate;
+    }
+    .footer-shop-head-after{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .pluss{
+        color: #fff;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .footer-privacy-after .hookah{
+        width: 80px;
+        height: 80px;
+        object-fit: conta
+    }
+    .footer-privacy-after .melouky{
+        width: 150px;
+        height: 150px;
+        object-fit: conta
+    }
+     .privacy-icons-after{
+        position: absolute;
+        right: 10px;
+        bottom: 350px;
+        display: flex;
+        align-items: center;
+    }
+    .footer-privacy-after >*{
+        margin-bottom: 20px;
+    }
+    .footer-privacy-after-links{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-privacy-after-links a{
+        text-decoration: none;
+        color: #ccc;
+    }
+    .footer-privacy-after-links a:hover{
+        color: var(--main-color);
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .footer{
+        height: 285vh;
+    }
+    .footer-top{
+        display: none;
+    }
+    .footer-top-after{
+        display: block;
+        padding: 10px;
+    }
+    .footer-top-after h3{
+        color: #fff;
+    }
+    .footer-top-after ul li a{
+        color: #ccc;
+        text-decoration: none;
+    }
+    .footer-top-after ul li a:hover{
+        color: var(--main-color);
+    }
+    .footer-top-after ul li{
+        margin-bottom: 15px;
+    }
+    .footer-logo-after img{
+        position: absolute;
+        top: -95px;
+        left: 180px;
+        width: 300px;
+        height: 350px;
+        object-fit: contain;
+    }
+    .footer-logo-after p{
+        color: #fff;
+        line-height: 2;
+    }
+    .footer-logo-after >*{
+        margin-bottom: 20px;
+    }
+    .footer-logo-after a{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: #ccc;
+    }
+    .footer-ul{
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        unicode-bidi: isolate;
+    }
+    .footer-shop-head-after{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .pluss{
+        color: #fff;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .footer-privacy-after .hookah{
+        width: 80px;
+        height: 80px;
+        object-fit: conta
+    }
+    .footer-privacy-after .melouky{
+        width: 150px;
+        height: 150px;
+        object-fit: conta
+    }
+     .privacy-icons-after{
+        position: absolute;
+        right: 10px;
+        bottom: 350px;
+        display: flex;
+        align-items: center;
+    }
+    .footer-privacy-after >*{
+        margin-bottom: 20px;
+    }
+    .footer-privacy-after-links{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-privacy-after-links a{
+        text-decoration: none;
+        color: #ccc;
+    }
+    .footer-privacy-after-links a:hover{
+        color: var(--main-color);
+    }
+}

@@ -1,0 +1,86 @@
+.follow-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #de3c3c;
+    gap: 250px;
+}
+/* .left-follow{
+    width: 80%;
+} */
+.left-follow >*{
+    margin-bottom: 30px;
+}
+.left-follow h3{
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 50px;
+}
+.inputs input{
+    width: 250px;
+    padding: 15px;
+    margin-right: 20px;
+    background-color: #a62c2d;
+    border: none;
+    outline: none;
+}
+.inputs input::placeholder{
+    color: #fff;
+    font-size: 18px;
+}
+.form button{
+    margin-top: 20px;
+    padding: 10px;
+    color: #fff;
+    background-color: #702020da;
+    border: none;
+    font-size: 18px;
+}
+/* .right-follow{
+    margin-right: 100px;
+} */
+.right-follow h1{
+    color: #fff;
+    letter-spacing: 1px;
+}
+.right-follow .follow-icon{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.follow-icon a{
+    color: #fff;
+}
+.right-follow .follow-icon >*{
+    margin-right: 10px;
+}
+@media screen and (max-width:480px){
+    .follow-us{
+        gap: 5px;
+    }
+    .inputs input{
+        width: 150px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    .follow-us{
+        gap: 100px;
+    }
+    .inputs input{
+        width: 150px;
+        margin-right: 10px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .follow-us{
+        gap: 150px;
+    }
+    .inputs input{
+        width: 200px;
+        margin-right: 10px;
+    }
+}

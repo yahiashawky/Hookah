@@ -1,0 +1,9 @@
+.topbar{
+    height: 40px;
+    background-color: #000;
+    text-align: center;
+}
+.topbar p{
+    color: #fff;
+    letter-spacing: 1.5px;
+}
